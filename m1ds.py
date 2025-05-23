@@ -12,6 +12,7 @@ with st.form("user_form"):
     name = st.text_input("Name")
     age = st.number_input("Age", min_value=0, max_value=120, step=1)
     email = st.text_input("Email")
+    tel = st.text_input("Tel")
     
     submitted = st.form_submit_button("Submit")
     
